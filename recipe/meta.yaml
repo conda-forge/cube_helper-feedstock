@@ -12,15 +12,15 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >2.6
     - pip
   run:
-    - python
+    - python >2.6
     - iris
 
 test:
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - jonseddon
+    - ehogan
