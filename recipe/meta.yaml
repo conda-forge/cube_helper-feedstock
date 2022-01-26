@@ -1,6 +1,6 @@
 {% set name = "cube_helper" %}
-{% set version = "2.2.0" %}
-{% set sha256 = "d33d65e24a3044f79dc8ce1e28f00ea540ade90569071a66d7f95d984f96b3b9" %}
+{% set version = "2.2.3" %}
+{% set sha256 = "9451738cfc320a5936ffbfed6f6b0c5bdce4c3c6043552f7930218ef6f679339" %}
 
 package:
   name: {{ name|lower }}
